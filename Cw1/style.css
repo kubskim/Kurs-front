@@ -25,11 +25,11 @@ header nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 
-.bottomArticle {
+.bottomArticle {d
     border: 5px dashed rgb(226, 226, 207);
 }
 
