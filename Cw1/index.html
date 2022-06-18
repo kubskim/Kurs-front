@@ -1,64 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wizytówka</title>~
+    <title>Wizytówka</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>NAGŁÓWEK</h1>
+    <header>
+        <h1>NAGŁÓWEK</h1>
+        <nav>
+            NAWIGACJA
+        </nav>
     </header>
-    <nav>NAWIGACJA
-    </nav>
-<main>CONTENT
-
-</main>
-    <article>
-        <header><h2>NAGŁÓWEK AUTONOMICZNEJ CZĘŚCI STRONY</h2>
-                <img src="https://www.w3schools.com/w3css/img_avatar3.png" 
-                alt="user image"
-                width="250px"
-                height="250px"
-                />
-        </header>
-    
-        <table border=""1">
-            <tr>
-                <th>Nazwa</th>
-                <th>Ocena</th>
-            </tr>
-
-            <tr>
-                <td>HTML</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>INNE</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-        </table>
+    <main>
+        <!-- CONTENT -->
+        <article class="topArticle">
+                <h2>NAGŁOWEK AUTONOMICZNEJ CZĘŚCI STRONY</h2>
+            <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="awatar"
+            width="250px"
+            height="250px">
+            <table border="1">
+                <tr>
+                    <td>HTML</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>OTHER</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </table>      
+        <section>
+            <h2>TEMATYCZNIE ZGRUPOWANY KONTENT</h2>
+            <ol>
+                <li>PROJEKT 1</li>
+                <li>PROJEKT 2</li>
+                <li>PROJEKT 3</li>
+            </ol>
+        </article>
+        </section>
+        <article class="bottomArticle">
+        <h3>Napisz wiadomość</h3>
+        <form class="messageForm">
+            <input type="text" placeholder="Twoje imię">
+            <textarea cols="30" rows="10" placeholder="Twoja wiadomość"></textarea>
+            <input type="submit" value="Wyślij">
+        </form>
     </article>
-    
-    <section>
-        <header>
-        TEMATYCZNIE ZGRUPOWANY KONTENT
-        </header>
-       
-        <ol>
-            <li>element 1</li>
-            <li>element 2</li>
-            <li>element 3</li>
-         </ol>   
-    </section>
-    <h2>Napisz wiadomość</h2>
-    <form class="messageForm
-    ">
-        <input type="text" placeholder="email">
-        <textarea name="text" id="" cols="30" rows="10"></textarea>
-    </form>
-    <footer>STOPKA
-    </footer>
+   
+    </main>
+   
+   <footer>
+        STOPKA
+   </footer>
 </body>
 </html>

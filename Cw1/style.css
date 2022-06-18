@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(29, 80, 82);
+    border: 3px dashed rgb(95, 129, 231);
+}
+
+header {
+    border: 4px dashed rgb(233, 233, 151);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header * {
+    border: 5px solid rgb(21, 61, 71);
+    margin: 2px;
+}
+
+header nav {
+    margin: 2px;
+}
+
+.topArticle {
+    border: 5px dashed rgb(4, 134, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.bottomArticle {
+    border: 5px dashed rgb(226, 226, 207);
+}
+
+.messageForm {
+    border: 2px dashed rgb(207, 11, 11);
+    display: flex;
+    flex-direction: column;
+}
+
