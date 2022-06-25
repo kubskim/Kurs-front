@@ -1,17 +1,18 @@
 body {
-    background-color: rgb(29, 80, 82);
-    border: 3px dashed rgb(95, 129, 231);
+    background-color: #ffffff;
+    border: 3px dashed #f90006;
 }
 
 header {
-    border: 4px dashed rgb(233, 233, 151);
+    border: 3px dashed #0000ff
+    ;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header * {
-    border: 5px solid rgb(21, 61, 71);
+    
     margin: 2px;
 }
 
@@ -20,17 +21,13 @@ header nav {
 }
 
 .topArticle {
-    border: 5px dashed rgb(4, 134, 134);
+    border: 5px dashed #ffff00;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ol{
-        text-align:left;
-      }
-      
+         
 }
-
 
 .bottomArticle {d
     border: 5px dashed rgb(226, 226, 207);
