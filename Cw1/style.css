@@ -1,11 +1,10 @@
 body {
-    background-color: #ffffff;
-    border: 3px dashed #f90006;
+    background-color: #1e384e;
+    font color: #ffffff;
 }
 
 header {
-    border: 3px dashed #0000ff
-    ;
+    background-color: #f0f8ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,24 +17,88 @@ header * {
 
 header nav {
     margin: 2px;
-}
+} 
 
 .topArticle {
-    border: 5px dashed #ffff00;
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-         
 }
 
-.bottomArticle {d
-    border: 5px dashed rgb(226, 226, 207);
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomArticle {
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-bottom: 10px;
 }
 
 .messageForm {
-    border: 2px dashed rgb(207, 11, 11);
+  
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.8em;
+        font-family: arial;
+    }
+
+   .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+img, table {
+    margin: 5px 0;
+}
+
+header {
+    font-size: 1em;
+    position: static;
+    margin: 10px;
+}
+
+section {
+    margin: 10px;
+}
+
+.bottomArticle {
+    margin-bottom: 10px;
+}
+
+ol {
+    display: table;
+    margin: 0 auto 10px;
+}
+
+.messageForm {
+    width: 80%;
+}
+
+    h1 {
+    font-size: 1.5em;
+}
+
+    h2 {
+    font-size: 1.2em;
+}
+
+    h3 {
+    font-size: 1em;
+}
+
+    
