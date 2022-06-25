@@ -49,6 +49,8 @@ tbody {
 
 footer {
     margin-bottom: 10px;
+    color: white;
+    justify-content: right;
 }
 
 .messageForm {
@@ -107,9 +109,9 @@ ol {
     color:white
 }
 
-footer {
-    color: white;
-}
+
+    
+
 
 
     
