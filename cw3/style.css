@@ -94,7 +94,11 @@ button:active {
 
 @media (min-width: 768px){
     main{
-        display:flex;   
+        display:flex;     
+    }
+
+    header {
+        height: 450px;
     }
     header img{
         height:450px;
